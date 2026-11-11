@@ -24,7 +24,7 @@
 static const char* PING_TARGET    = "8.8.8.8";
 static const int   PING_COUNT     = 4;
 static const DWORD PING_TIMEOUT_MS = 2000;
-static const int   DEFAULT_INTERVAL_S = 10;
+static const int   DEFAULT_INTERVAL_S = 60;
 
 static volatile bool g_running = true;
 

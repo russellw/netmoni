@@ -4,7 +4,7 @@ Monitors the reliability and performance of a Windows Internet connection. Desig
 
 ## What it measures
 
-Each probe (default: every 10 seconds) records:
+Each probe (default: every 60 seconds) records:
 
 | Column | Description |
 |---|---|
@@ -43,7 +43,7 @@ Or open `netmoni.sln` in Visual Studio and build Release|x64.
 ## Running
 
 ```
-netmoni.exe           # probe every 10 seconds (default)
+netmoni.exe           # probe every 60 seconds (default)
 netmoni.exe 30        # probe every 30 seconds
 ```
 
